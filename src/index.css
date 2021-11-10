@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+  body{
+    color: #f3a5fe
+  }
+
+.main-container{
+  min-height: 100vh;
+  width: 100vw;
+  background-image:
+  linear-gradient(black, white),
+  url('https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80');
+  filter:brightness(100%);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:hue;
+  background-color: azure;
+  display: flex;
+  
+  justify-content: center;
+
+}
+
+.login-container{
+  background: linear-gradient(to bottom, #7674fc 20%, #b225ee 90%);
+  border-radius: 6px;
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heading-container h4{
+  letter-spacing: 1px;
+  
+}
+
+.circle-div{
+  border-radius: 100%;
+  background: #fefef8;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 30px;
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 50px;
+}
+
+.form-div > *{
+  margin:10px
+}
+
+
+.input-container {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.input-container input {
+    padding-left: 35px !important; 
+    outline: 0;
+    border-width: 0 0 0.5px;
+    border-color: #fff4fe;
+    border-radius: 1px;
+ 
+    background: transparent;
+    color: #fff4fe;
+}
+
+.input-container input:focus{
+  
+  border-width: 0 0 2px;
+}
+.input-container input::placeholder{
+  color:#fff4fe;
+}
+.input-container i {
+    position: absolute;
+    color: #fff4fe;
+    pointer-events: none;
+    padding-left: 2px;
+}
+
+.label-class{
+  font-size: 12px;
+  margin-left: 22px;
+}
+
+.form-button{
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  margin: 10px auto;
+  background: #fefefe;
+}
+
+.forgot-par{
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+
+
+
+.heading-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 30px;
+}
